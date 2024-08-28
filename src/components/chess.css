@@ -1,0 +1,33 @@
+.chess-board-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .chess-board {
+    display: grid;
+    grid-template-columns: repeat(8, 70px);
+    grid-template-rows: repeat(8, 70px);
+  }
+  
+  .square {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .black {
+    background-color: rgb(206, 73, 73);
+  }
+  
+  .white {
+    background-color: #eeeee8;
+  }
+  
+  .piece img {
+    max-width: 80%;
+    max-height: 80%;
+  }
+  
